@@ -56,7 +56,7 @@ namespace Intro_C_
             Console.WriteLine("summan av dina tal är " + summa);
         }
 
-        /*public void Uppgift2a()
+        public void Uppgift2a()
         {
             Console.WriteLine("Gissa mitt favorittal");
             var text = Console.ReadLine();
@@ -69,9 +69,9 @@ namespace Intro_C_
             {
                 Console.WriteLine("Du gissade fel");
             }
-        }*/
+        }
 
-        /*public void Uppgift2b()
+        public void Uppgift2b()
         {
             Random randomGenerator = new Random();
             int antalTärningsögon = randomGenerator.Next(1, 7);
@@ -98,10 +98,10 @@ namespace Intro_C_
             {
                 Console.WriteLine("Ha en trevlig dag");
             }
-        }*/
-    }
+        }
+    
 
-        /*public void Uppgift3a()
+        public void Uppgift3a()
         {
             int räknare = 1;
             while (räknare < 6)
@@ -110,9 +110,9 @@ namespace Intro_C_
                 räknare = räknare + 1;
             }
             Console.WriteLine();
-        }*/
+        }
 
-        /*public void uppgift3b()
+        public void uppgift3b()
         {
             int räknare = 5;
             while(räknare < 21)
@@ -121,9 +121,9 @@ namespace Intro_C_
                 räknare = räknare + 3;
             }
             Console.WriteLine();
-        }*/
+        }
 
-        /*public void Uppgift3c()
+        public void Uppgift3c()
         {
             int räknare = 10;
             while (räknare > -1)
@@ -131,7 +131,8 @@ namespace Intro_C_
                 Console.WriteLine("" + räknare);
                 räknare = räknare - 1;
             }
-        }*/
+        }
+
 
     }
 
