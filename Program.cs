@@ -20,3 +20,18 @@ sol.Uppgift3a();
 sol.uppgift3b();
 sol.Uppgift3c();
 */
+
+/*
+sol.Uppgift4a();
+sol.Uppgift4b();
+sol.Uppgift4c();
+ */
+
+/*
+sol.Uppgift5();
+*/
+
+/*
+sol.Uppgift6();
+*/
+

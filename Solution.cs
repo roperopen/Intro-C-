@@ -134,6 +134,59 @@ namespace Intro_C_
         }
 
 
+        public void Uppgift4a() 
+        {
+            for (int räknare = 1; räknare < 6; räknare = räknare + 1)
+            {
+                Console.WriteLine("" + räknare);
+            }
+
+        }
+
+        public void Uppgift4b()
+        {
+            for (int räknare = 5; räknare <= 20; räknare = räknare + 3)
+            {
+                Console.WriteLine("" + räknare);
+            }
+        }
+        public void Uppgift4c()
+        {
+            for (int räknare = 10; räknare > -1; räknare = räknare - 1)
+            {
+                Console.WriteLine("" + räknare);
+            }
+        }
+        public void Uppgift5()
+        {
+            Console.WriteLine("Gissa på ett tal mellan 0 och 50. ");
+            var tal = Convert.ToInt32(Console.ReadLine());
+            while (tal != 15)
+            {
+                Console.WriteLine("gissa igen");
+                Console.WriteLine("Gissa på ett tal mellan 0 och 50. ");
+                tal = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("DU GISSADE RÄTT!!!!!");
+        }
+
+        public void Uppgift6()
+        {
+            Random random = new Random();
+            var diceroll = random.Next(1, 7);
+            var diceroll2 = random.Next(1, 7);
+            Console.WriteLine("tärningarna visar: " + diceroll2 + " " + diceroll);
+            if (diceroll == 6 && diceroll2 == 6)
+            {
+                Console.WriteLine("Stor vinst");
+            } else if (diceroll == diceroll2){
+                Console.WriteLine("liten vinst");
+            } else
+            {
+                Console.WriteLine("förlust");
+            }
+        }
+
     }
 
 }
